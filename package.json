@@ -1,0 +1,24 @@
+{
+  "name": "express-logger",
+  "version": "0.0.0",
+  "description": "Generate log files in S3",
+  "main": "express-logger.js",
+  "directories": {
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markbertoglio/express-logger.git"
+  },
+  "author": "Mark Bertoglio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/markbertoglio/express-logger/issues"
+  },
+  "homepage": "https://github.com/markbertoglio/express-logger",
+  "dependencies": {
+    "logger": "git://github.com/mdbranth/logger.git",
+    "logger-s3": "git://github.com/markbertoglio/logger-s3.git"
+  }
+}
